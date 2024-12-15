@@ -1,11 +1,12 @@
-
+#Homework 1
 numbers = [4, 5, 10, 20, 40, 60, 80]
 new_list1 = []
 for number in numbers:
     if number > 10:
         new_list1.append(number)
 print(new_list1)
-#Homework 1
+
+#Homework 2.1
 
 def angka (a,b):
     result = a + b
@@ -13,7 +14,7 @@ def angka (a,b):
 hasil = angka (10,20)
 print(hasil)
 
-#Homework 2.1
+#Homework 2.2
 
 def angka (a,b):
     result = a*b
@@ -21,7 +22,7 @@ def angka (a,b):
 hasil = angka (10,20)
 print(hasil)
 
-#Homework 2.2
+#Homework 2.3
 
 def angka (a,b):
     result = max (a,b)
@@ -29,7 +30,7 @@ def angka (a,b):
 hasil = angka (10,20)
 print(hasil)
 
-#Homework 2.3
+#Homework Luas Lingkaran
 
 def luas_lingkaran(r):
     phi = 22/7
